@@ -1,8 +1,6 @@
 <style>
-    .container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    * {
+        background-color: transparent;
     }
     ul {
         display: flex;
@@ -18,18 +16,14 @@
         text-decoration: none;
         color: white;
     }
+    .logo {
+        color: blue;
+    }
 </style>
 
-<div class="container">
-    <a href="index.php?page=home"><img src='' alt='logo'></a>
-
-    <ul>
-        <li><a href="index.php?page=about" >About</a></li>
-        <li><a href="index.php?page=contact">Contact Us</a></li>
-    </ul>
-</div>
+<a class="logo" href="index.php?page=home">STARTUP LOGO</a>
 
 <ul>
-    <li><button onclick="openLoginForm()">Login</button></li>
-    <li><a href="#" >Register</a></li>
+    <li><a href="index.php?page=about" >About</a></li>
+    <li><a href="index.php?page=contact">Contact Us</a></li>
 </ul>
